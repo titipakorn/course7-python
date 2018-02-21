@@ -95,7 +95,7 @@ class BX:
                 break
 
             time_end = time.time()
-            time.sleep(2 - (time_end - time_start))
+            delay(2 - (time_end - time_start))
 
         return resp
 
