@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import asyncio
 import base64
-import collections
 import datetime
 import hashlib
 import hmac

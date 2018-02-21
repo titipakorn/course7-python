@@ -117,6 +117,7 @@ class BX:
         return urlencode(d)
 
     # parser currency id
+    # information : https://bx.in.th/api/pairing/
     def _pairing_list(self):
         return {
             'thb_btc': 1,
